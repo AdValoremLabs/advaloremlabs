@@ -9,3 +9,5 @@ Open soure to plug-and-play
 ## Support
 - **FAQ:** https://github.com/advaloremlabs/docs/faq.md
 - **Open an issue:** https://github.com/advaloremlabs/issues
+
+© 2025 Ad Valorem Labs. Code: MIT. Docs: CC-BY 4.0. “Ad Valorem Labs” name & logo are trademarks; all rights reserved.
