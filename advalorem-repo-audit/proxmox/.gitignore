@@ -1,0 +1,40 @@
+# ---- Universal ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+*.code-workspace
+
+# Logs & temp
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+secrets/
+*.pem
+*.key
+*.p12
+*.crt
+id_*
+*.kdbx
+
+# General caches
+**/.cache/
+
+# ---- Docs repos ----
+# Keep Markdown and HTML; ignore local trash only
+.trash/
+

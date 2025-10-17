@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# Simple pre-commit guard: blocks common secrets and huge files.
+
+set -euo pipefail
+
+# Block committing .env files and private keys
+if git diff --cached --name-only | grep -E '(^|/)(\.env(\.|$)|.*\.(pem|key|p12)|id_[^/]+$)'; then
+  echo "❌ Commit blocked: detected .env or private key files. Use .env.example and keep secrets out of git."
+  exit 1
+fi
+
+# Block files > 50 MB (GitHub hard limit is 100 MB per file)
+max_bytes=$((50 * 1024 * 1024))
+oversize=0
+while IFS= read -r file; do
+  # Skip deletions
+  [ -f "$file" ] || continue
+  size=$(wc -c < "$file")
+  if [ "$size" -gt "$max_bytes" ]; then
+    echo "❌ Commit blocked: $file is $(numfmt --to=iec $size), exceeds 50 MiB. Consider Git LFS."
+    oversize=1
+  fi
+done < <(git diff --cached --name-only)
+
+if [ "$oversize" -ne 0 ]; then
+  exit 1
+fi
+
+exit 0

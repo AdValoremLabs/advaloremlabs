@@ -1,0 +1,129 @@
+.
+├── advaloremlabs
+│   ├── .git
+│   │   ├── COMMIT_EDITMSG
+│   │   ├── FETCH_HEAD
+│   │   ├── HEAD
+│   │   ├── config
+│   │   ├── description
+│   │   ├── hooks
+│   │   ├── index
+│   │   ├── info
+│   │   ├── logs
+│   │   ├── objects
+│   │   ├── packed-refs
+│   │   └── refs
+│   ├── LICENSE
+│   ├── README.md
+│   ├── brand-logo-full-inverted.png
+│   ├── brand-logo-full-inverted.svg
+│   ├── brand-logo-full.png
+│   ├── brand-logo-full.svg
+│   ├── brand-logo-simple-inverted.png
+│   ├── brand-logo-simple-inverted.svg
+│   ├── brand-logo-simple.png
+│   ├── brand-logo-simple.svg
+│   ├── docs
+│   │   ├── faq.md
+│   │   ├── index.md
+│   │   └── support.md
+│   ├── scripts_flash_haos.sh
+│   └── scripts_flash_proxmox.sh
+├── advaloremlabs.github.io
+│   ├── .git
+│   │   ├── FETCH_HEAD
+│   │   ├── HEAD
+│   │   ├── ORIG_HEAD
+│   │   ├── config
+│   │   ├── description
+│   │   ├── hooks
+│   │   ├── index
+│   │   ├── info
+│   │   ├── logs
+│   │   ├── objects
+│   │   ├── packed-refs
+│   │   └── refs
+│   ├── LICENSE
+│   ├── _config.yml
+│   ├── _includes
+│   │   ├── breadcrumb.html
+│   │   └── nav.html
+│   ├── _layouts
+│   │   └── default.html
+│   ├── assets
+│   │   ├── brand-logo-simple.png
+│   │   ├── brand-logo.svg
+│   │   └── css
+│   ├── home-assistant
+│   │   └── index.md
+│   ├── index.md
+│   ├── proxmox
+│   │   └── index.md
+│   └── retropie
+│       └── index.md
+├── home-assistant
+│   ├── .git
+│   │   ├── FETCH_HEAD
+│   │   ├── HEAD
+│   │   ├── config
+│   │   ├── description
+│   │   ├── hooks
+│   │   ├── index
+│   │   ├── info
+│   │   ├── logs
+│   │   ├── objects
+│   │   ├── packed-refs
+│   │   └── refs
+│   ├── LICENSE
+│   ├── README.md
+│   ├── docs
+│   │   ├── getting-started.md
+│   │   ├── packing-checklist.md
+│   │   └── quickstart.html
+│   ├── listing-ebay.html
+│   └── listing-etsy.html
+├── proxmox
+│   ├── .git
+│   │   ├── FETCH_HEAD
+│   │   ├── HEAD
+│   │   ├── config
+│   │   ├── description
+│   │   ├── hooks
+│   │   ├── index
+│   │   ├── info
+│   │   ├── logs
+│   │   ├── objects
+│   │   ├── packed-refs
+│   │   └── refs
+│   ├── LICENSE
+│   ├── README.md
+│   ├── docs
+│   │   ├── getting-started.md
+│   │   ├── packing-checklist.md
+│   │   └── quickstart.html
+│   ├── listing-ebay.html
+│   └── listing-etsy.html
+├── repo_structure.txt
+└── retropie
+    ├── .git
+    │   ├── FETCH_HEAD
+    │   ├── HEAD
+    │   ├── config
+    │   ├── description
+    │   ├── hooks
+    │   ├── index
+    │   ├── info
+    │   ├── logs
+    │   ├── objects
+    │   ├── packed-refs
+    │   └── refs
+    ├── LICENSE
+    ├── README.md
+    ├── docs
+    │   ├── getting-started.md
+    │   ├── packing-checklist.md
+    │   └── quickstart.html
+    ├── listing-ebay.html
+    └── listing-etsy.html
+
+47 directories, 80 files
